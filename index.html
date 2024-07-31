@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.0.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Web Design Mastery | Travel.co</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__logo"><a href="#"><img src="logo.jpg" alt="logo" width="50" height="50" /></a></div>
+      <ul class="nav__links">
+        <li class="link"><a href="#home">Home</a></li>
+        <li class="link"><a href="#blog">Blog</a></li>
+        <li class="link"><a href="#offers">Offers</a></li>
+        <li class="link"><a href="#services">Services</a></li>
+        <li class="link"><a href="#contacts">Contacts</a></li>
+      </ul>
+      <div class="nav__toggle">
+        <i class="ri-menu-line"></i>
+      </div>
+    </nav>
+    <section id="home">
+      <header>
+        <div class="section__container">
+          <div class="header__content">
+            <h1>Travel With Us</h1>
+            <p>
+              "Travel With Us is a premier travel agency offering bespoke travel experiences to discerning travelers. From exotic destinations to cultural tours, we curate unforgettable journeys tailored to your preferences. Explore the world with confidence, knowing that our expert team has meticulously planned every detail of your trip. Embark on a journey of a lifetime with Travel With Us."
+            </p>
+            <button>Read more</button>
+          </div>
+        </div>
+      </header>
+    </section>
+    <section id="blog"></section>
+    <section id="offers"></section>
+    <section id="services"></section>
+    <section id="contacts"></section>
+
+    <section class="journey__container">
+      <div class="section__container">
+        <h2 class="section__title">Start Your Journey</h2>
+        <p class="section__subtitle">The most searched countries in March</p>
+        <div class="journey__grid">
+          <div class="country__card">
+            <img src="image1.jpg" alt="country" />
+            <div class="country__name">
+              <i class="ri-map-pin-2-fill"></i>
+              <span>Santorini, Greece</span>
+            </div>
+          </div>
+          <div class="country__card">
+            <img src="image2.jpg" alt="country" />
+            <div class="country__name">
+              <i class="ri-map-pin-2-fill"></i>
+              <span>Vernazza, Italy</span>
+            </div>
+          </div>
+          <div class="country__card">
+            <img src="image3.jpg" alt="country" />
+            <div class="country__name">
+              <i class="ri-map-pin-2-fill"></i>
+              <span>San Francisco</span>
+            </div>
+          </div>
+          <div class="country__card">
+            <img src="image4.jpg" alt="country" />
+            <div class="country__name">
+              <i class="ri-map-pin-2-fill"></i>
+              <span>Navagio, Greece</span>
+            </div>
+          </div>
+          <div class="country__card">
+            <img src="image5.jpg" alt="country" />
+            <div class="country__name">
+              <i class="ri-map-pin-2-fill"></i>
+              <span>Ao Nang, Thailand</span>
+            </div>
+          </div>
+          <div class="country__card">
+            <img src="image6.jpg" alt="country" />
+            <div class="country__name">
+              <i class="ri-map-pin-2-fill"></i>
+              <span>Phi Phi Island, Thailand</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="banner__container">
+      <div class="section__container">
+        <div class="banner__content">
+          <h2>Discount 10-30% Off</h2>
+          <p>
+            Travel the world on a budget with our unbeatable discounted travel
+            deals. Whether you're looking for a last-minute escape or planning
+            ahead, we've got you covered with incredible discounts on flights,
+            hotels, and packages. Don't wait, book now and experience the
+            adventure of a lifetime without breaking the bank.
+          </p>
+          <button>See Tours</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="display__container">
+      <div class="section__container">
+        <h2 class="section__title">Why Choose Us</h2>
+        <p class="section__subtitle">
+          The gladdest moment in human life, is a departure into unknown lands.
+        </p>
+        <div class="display__grid">
+          <div class="display__card grid-1">
+            <img src="grid1.jpg" alt="grid" />
+          </div>
+          <div class="display__card">
+            <i class="ri-earth-line"></i>
+            <h4>Passionate Travel</h4>
+            <p>Fuel your passion for adventure and discover new horizons</p>
+          </div>
+          <div class="display__card">
+            <img src="grid2.jpg" alt="grid" />
+          </div>
+          <div class="display__card">
+            <img src="grid3.jpg" alt="grid" />
+          </div>
+          <div class="display__card">
+            <i class="ri-road-map-line"></i>
+            <h4>Beautiful Places</h4>
+            <p>Uncover the world's most breathtakingly beautiful places</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="section__container">
+        <h4>Travel.co</h4>
+        <div class="social__icons">
+          <span><i class="ri-facebook-fill"></i></span>
+          <span><i class="ri-twitter-fill"></i></span>
+          <span><i class="ri-instagram-line"></i></span>
+          <span><i class="ri-linkedin-fill"></i></span>
+        </div>
+        <p>
+          Travel makes one modest. You see what a tiny place you occupy in the
+          world.
+        </p>
+      </div>
+    </footer>
+
+    <script>
+      const navToggle = document.querySelector('.nav__toggle');
+      const navLinks = document.querySelector('.nav__links');
+
+      navToggle.addEventListener('click', () => {
+        navLinks.classList.toggle('nav__links--active');
+      });
+    </script>
+    <script>
+  const navToggle = document.querySelector('.nav__toggle');
+  const navLinks = document.querySelector('.nav__links');
+
+  navToggle.addEventListener('click', () => {
+    navLinks.classList.toggle('nav__links--active');
+  });
+</script>
+
+  </body>
+</html>
