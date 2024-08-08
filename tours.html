@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.0.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Web Design Mastery | Travel.co</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__logo"><a href="#"><img src="logo.jpg" alt="logo" width="50" height="50" /></a></div>
+      <ul class="nav__links">
+        <li class="link"><a href="#home">Home</a></li>
+        <li class="link"><a href="#blog">Blog</a></li>
+        <li class="link"><a href="#offers">Offers</a></li>
+        <li class="link"><a href="#services">Services</a></li>
+        <li class="link"><a href="#contacts">Contacts</a></li>
+      </ul>
+      <div class="nav__toggle">
+        <i class="ri-menu-line"></i>
+      </div>
+    </nav>
+    <section id="home">
+      <header>
+        <div class="section__container">
+          <div class="header__content">
+            <h1>Travel With Us</h1>
+            <p>
+              "Travel With Us is a premier travel agency offering bespoke travel experiences to discerning travelers. From exotic destinations to cultural tours, we curate unforgettable journeys tailored to your preferences. Explore the world with confidence, knowing that our expert team has meticulously planned every detail of your trip. Embark on a journey of a lifetime with Travel With Us."
+            </p>
+            <button>Read more</button>
+          </div>
+        </div>
+      </header>
+    </section>
+    <section id="blog"></section>
+    <section id="offers"></section>
+    <section id="services"></section>
+    <section id="contacts"></section>
+
+    <section class="journey__container">
+      <div class="section__container">
+        <h2 class="section__title">Start Your Journey</h2>
+        <p class="section__subtitle">The most searched countries in March</p>
+        <div class="journey__grid">
+          <div class="country__card">
+            <img src="image1.jpg" alt="country" />
+            <div class="country__name">
+              <i class="ri-map-pin-2-fill"></i>
+              <span>Santorini, Greece</span>
+            </div>
+          </div>
+          <div class="country__card">
+            <img src="image2.jpg" alt="country" />
+            <div class="country__name">
+              <i class="ri-map-pin-2-fill"></i>
+              <span>Vernazza, Italy</span>
+            </div>
+          </div>
+          <div class="country__card">
+            <img src="image3.jpg" alt="country" />
+            <div class="country__name">
+              <i class="ri-map-pin-2-fill"></i>
+              <span>San Francisco</span>
+            </div>
+          </div>
+          <div class="country__card">
+            <img src="image4.jpg" alt="country" />
+            <div class="country__name">
+              <i class="ri-map-pin-2-fill"></i>
+              <span>Navagio, Greece</span>
+            </div>
+          </div>
+          <div class="country__card">
+            <img src="image5.jpg" alt="country" />
+            <div class="country__name">
+              <i class="ri-map-pin-2-fill"></i>
+              <span>Ao Nang, Thailand</span>
+            </div>
+          </div>
+          <div class="country__card">
+            <img src="image6.jpg" alt="country" />
+            <div class="country__name">
+              <i class="ri-map-pin-2-fill"></i>
+              <span>Phi Phi Island, Thailand</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="banner__container">
+      <div class="section__container">
+        <div class="banner__content">
+          <h2>Discount 10-30% Off</h2>
+          <p>
+            Travel the world on a budget with our unbeatable discounted travel
+            deals. Whether you're looking for a last-minute escape or planning
+            ahead, we've got you covered with incredible discounts on flights,
+            hotels, and packages. Don't wait, book now and experience the
+            adventure of a lifetime without breaking the bank.
+          </p>
+          <button>See Tours</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="display__container">
+      <div class="section__container">
+        <h2 class="section__title">Why Choose Us</h2>
+        <p class="section__subtitle">
+          The gladdest moment in human life, is a departure into unknown lands.
+        </p>
+        <div class="display__grid">
+          <div class="display__card grid-1">
+            <img src="grid1.jpg" alt="grid" />
+          </div>
+          <div class="display__card">
+            <i class="ri-earth-line"></i>
+            <h4>Passionate Travel</h4>
+            <p>Fuel your passion for adventure and discover new horizons</p>
+          </div>
+          <div class="display__card">
+            <img src="grid2.jpg" alt="grid" />
+          </div>
+          <div class="display__card">
+            <img src="grid3.jpg" alt="grid" />
+          </div>
+          <div class="display__card">
+            <i class="ri-road-map-line"></i>
+            <h4>Beautiful Places</h4>
+            <p>Uncover the world's most breathtakingly beautiful places</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="section__container">
+        <h4>Travel.co</h4>
+        <div class="social__icons">
+          <span><i class="ri-facebook-fill"></i></span>
+          <span><i class="ri-twitter-fill"></i></span>
+          <span><i class="ri-instagram-line"></i></span>
+          <span><i class="ri-linkedin-fill"></i></span>
+        </div>
+        <p>
+          Travel makes one modest. You see what a tiny place you occupy in the
+          world.
+        </p>
+      </div>
+    </footer>
+
+    <script>
+      const navToggle = document.querySelector('.nav__toggle');
+      const navLinks = document.querySelector('.nav__links');
+
+      navToggle.addEventListener('click', () => {
+        navLinks.classList.toggle('nav__links--active');
+      });
+    </script>
+    <script>
+  const navToggle = document.querySelector('.nav__toggle');
+  const navLinks = document.querySelector('.nav__links');
+
+  navToggle.addEventListener('click', () => {
+    navLinks.classList.toggle('nav__links--active');
+  });
+</script>
+
+  </body>
+</html>
+
+:root {
+    --primary-color: #669ccb;
+    --primary-color-dark: #5681a7;
+    --secondary-color: #e8f1fa;
+    --text-dark: #282d31;
+    --text-light: #767268;
+    --extra-light: #f3f4f6;
+
+    --max-width: 1200px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.section__container {
+    padding: 5rem 1rem;
+    max-width: var(--max-width);
+    margin: auto;
+}
+
+.section__title {
+    font-size: 2rem;
+    font-weight: 500;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.section__subtitle {
+    font-size: 1rem;
+    font-style: italic;
+    color: var(--primary-color);
+    margin-bottom: 5rem;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+nav {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 2rem 1rem;
+    width: 100%;
+    max-width: var(--max-width);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav__logo a {
+    text-decoration: none;
+    color: var(--extra-light);
+    font-size: 1.5rem;
+}
+
+.nav__links {
+    display: none;
+    list-style: none;
+    align-items: center;
+    gap: 2rem;
+}
+
+.link a {
+    color: var(--extra-light);
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.link:hover a {
+    color: var(--primary-color);
+}
+
+.nav__toggle {
+    display: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+header {
+    height: 100vh;
+    background-image: linear-gradient(rgba(45    , 156, 219, 0.5), rgba(0, 0, 0, 0.5)), url('hero.jpg');
+    background-size: cover;
+    background-position: center;
+    color: var(--extra-light);
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.header__content {
+    max-width: 600px;
+    margin: auto;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+header p {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+header button {
+    padding: 0.75rem 1.5rem;
+    background-color: var(--primary-color);
+    color: var(--extra-light);
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+header button:hover {
+    background-color: var(--primary-color-dark);
+}
+
+.journey__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+.country__card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 1rem;
+}
+
+.country__card img {
+    transition: 0.3s;
+}
+
+.country__card:hover img {
+    transform: scale(1.1);
+}
+
+.country__name {
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: var(--extra-light);
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.banner__container {
+    background-color: var(--primary-color);
+    color: var(--extra-light);
+    text-align: center;
+    padding: 3rem 1rem;
+}
+
+.banner__content {
+    max-width: 600px;
+    margin: auto;
+}
+
+.banner__content h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.banner__content p {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+.banner__content button {
+    padding: 0.75rem 1.5rem;
+    background-color: var(--extra-light);
+    color: var(--primary-color);
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.banner__content button:hover {
+    background-color: var(--primary-color-dark);
+    color: var(--extra-light);
+}
+
+.display__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+.display__card {
+    text-align: center;
+}
+
+.display__card img {
+    border-radius: 1rem;
+    transition: 0.3s;
+}
+
+.display__card img:hover {
+    transform: scale(1.05);
+}
+
+.display__card i {
+    font-size: 3rem;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+.display__card h4 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.display__card p {
+    font-size: 1rem;
+    color: var(--text-light);
+}
+
+footer {
+    background-color: var(--primary-color);
+    color: var(--extra-light);
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+footer h4 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+footer .social__icons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+footer .social__icons span {
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+footer .social__icons span:hover {
+    color: var(--primary-color-dark);
+}
+
+footer p {
+    font-size: 1rem;
+}
+
+@media (min-width: 768px) {
+    .nav__links {
+        display: flex;
+    }
+
+    .nav__toggle {
+        display: none;
+    }
+
+    header h1 {
+        font-size: 4rem;
+    }
+
+    header p {
+        font-size: 1.25rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .nav__toggle {
+        display: block;
+    }
+
+    .nav__links {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        background-color: var(--primary-color);
+        padding: 1rem 0;
+        width: 100%;
+        position: absolute;
+        top: 100%;
+        left: 0;
+    }
+
+    .nav__links.nav__links--active {
+        display: flex;
+    }
+
+    header {
+        padding: 1rem;
+        text-align: center;
+    }
+
+    header h1 {
+        font-size: 2.5rem;
+    }
+
+    header p {
+        font-size: 1rem;
+    }
+}
+
